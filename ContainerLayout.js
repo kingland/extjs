@@ -1,0 +1,32 @@
+import Container from './Container';
+import AutoLayout from './layout/AutoLayout';
+import FitLayout from './layout/FitLayout';
+import CardLayout from './layout/CardLayout';
+import AnchorLayout from './layout/AnchorLayout';
+import ColumnLayout from './layout/ColumnLayout';
+import BorderLayout from './layout/BorderLayout';
+import FormLayout from './layout/FormLayout';
+import AccordionLayout from './layout/AccordionLayout';
+import TableLayout from './layout/TableLayout';
+import AbsoluteLayout from './layout/AbsoluteLayout';
+import VBoxLayout from './layout/VBoxLayout';
+import HBoxLayout from './layout/HBoxLayout';
+import ToolbarLayout from './layout/ToolbarLayout';
+import MenuLayout from './layout/MenuLayout';
+
+Container.LAYOUTS['auto'] = AutoLayout;
+Container.LAYOUTS['fit'] =  FitLayout;
+Container.LAYOUTS['card'] = CardLayout;
+Container.LAYOUTS['anchor'] = AnchorLayout;
+Container.LAYOUTS['column'] = ColumnLayout;
+Container.LAYOUTS['border'] = BorderLayout;
+Container.LAYOUTS['form'] =  FormLayout;
+Container.LAYOUTS['accordion'] = AccordionLayout;
+Container.LAYOUTS['table'] = TableLayout;
+Container.LAYOUTS['absolute'] = AbsoluteLayout;
+Container.LAYOUTS['vbox'] = VBoxLayout;
+Container.LAYOUTS['hbox'] = HBoxLayout;
+Container.LAYOUTS['toolbar'] = ToolbarLayout;
+Container.LAYOUTS['menu'] =  MenuLayout;
+
+export default Container.LAYOUTS;
